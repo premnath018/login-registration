@@ -104,11 +104,11 @@ const dobInput = document.getElementById('dob');
     alert('Passwords do not match.');
     return false;
   }
-  const passwordRegex = /^(?=.*\d)(?=.*[A-Z])[a-zA-Z\d]{8,}$/;
-  if (!passwordRegex.test(passwordInput.value)) {
-    alert('Password must be at least 8 characters long and contain at least one number and one uppercase letter.');
-    return false;
-  }
+  const passwordRegex = /^(?=.*\d)(?=.*[A-Z])(?=.*[!@#$%^&*])[a-zA-Z\d!@#$%^&*]{8,}$/;
+if (!passwordRegex.test(passwordInput.value)) {
+  alert('Password must be at least 8 characters long and contain at least one number, one uppercase letter, and one symbol (!@#$%^&*)');
+  return false;
+}
   $.ajax({
     url: '../api/register.php',
     method: 'post',
