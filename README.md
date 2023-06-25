@@ -14,7 +14,7 @@ To set up the project, follow these steps:
    git clone https://github.com/premnath018/login-registration.git
    ```
 
-2. Set up a database in MySQL and update the `config.php` file with your database credentials.
+2. Set up a database in MySQL and update the `connection.php` file in db folder with your database credentials.
 
 3. Start your web server and navigate to the project directory.
 
