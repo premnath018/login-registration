@@ -1,3 +1,4 @@
+<?php
 // This line enables error reporting for debugging purposes.
 // It sets the value of the `display_errors` and `display_startup_errors` directives to `1`,
 // and sets the error reporting level to `E_ALL`, which includes all error types.
