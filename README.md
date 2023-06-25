@@ -35,10 +35,6 @@ This project is built using the following technologies:
 - MySQL database
 - AJAX for API calls
 
-## 📝 API Documentation
-
-The project uses AJAX for API calls to interact with the server-side PHP scripts. The API documentation is available in the `api-docs.md` file.
-
 ## 😊 Feedback
 
 If you have any feedback or suggestions for this project, please feel free to [contact me](mailto:prem185nath@gmail.com). I would love to hear from you!
